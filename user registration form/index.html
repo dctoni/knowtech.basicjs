@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>User Registration form</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="form.js"></script>
+</head>
+<body>
+	<script id="tooltipTemplate" type="template">
+		<div class="tooltip">
+			<span class"tooltip-text"></span>
+		</div>
+	</script>
+	<form id="registrationForm">
+		<div class="field">
+			<label>Username</label>
+			<input id="userName" type="text"></input>
+		</div>
+		<div class="field">
+			<label>Password</label>
+			<input id="password" type="password"></input>
+		</div>
+		<div class="field">	
+			<label>Password Repeat</label>
+			<input id="repeatpassword" type="password"></input>
+		</div>
+		<div class="field">
+			<label>Email</label>
+			<input id="email" type="email"></input>
+		</div>
+		<div class="field">
+			<label>Do you accept EULA?</label>
+			<input id="eula" type="checkbox"></input>
+		</div>
+		<div class="actions">
+			<button id="registerUserButton">Register me!</button>
+			<button id="clearForm">Clear</button>
+		</div>
+	<form>
+
+</body>
+</html>

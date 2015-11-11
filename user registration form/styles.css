@@ -1,0 +1,77 @@
+body {
+	background: #FFF;;
+}
+
+#registrationForm .field label {
+	display: block;
+	float:left;
+	width: 10vw;
+	font:menu;
+	font-size: 0.7vw;
+}
+
+#registrationForm .field {
+	padding: 0.2vw;
+}
+
+#registrationForm .field input {
+	padding: 0.2vw;
+	border-radius: 0.3vw;
+	box-shadow: 0 0 14px lightblue inset;
+	transition: box-shadow 2s ease;
+}
+
+#registrationForm .field input:focus {
+	border: 2px solid blue;
+	border-radius: 0.3vw;
+	transition: box-shadow 1s ease;
+	box-shadow: 0 0 20px 2px #444 inset;
+}
+
+#registrationForm .field input:hover {
+	transition: box-shadow 1s ease;
+	box-shadow: 0 0 20px 2px orange inset;
+}
+
+#registrationForm .actions {
+	padding-top: 1.5vw;
+	padding-left: 0;
+}
+
+#registrationForm .actions button:first-child {
+	margin-left: 0;
+}
+
+#registrationForm .actions button {
+	margin-left: 30;
+}
+
+#registrationForm .actions #registerUserButton {
+	font-size: 0.8vw;
+	border-radius: 3px;
+}
+
+#registrationForm .actions #clearForm {
+	font-size: 0.8vw;
+	border-radius: 3px;
+}
+
+#registrationForm .field input[type="text"],
+#registrationForm .field input[type="email"],
+#registrationForm .field input[type="password"] {
+	padding: 5px;
+	display: flex;
+	align-items:center;
+}
+
+.tooltip {
+	position: absolute;
+	background-color: red;
+	padding: 10px;
+	color: white;
+	font-family: sans-serif;
+	font-size: 0.9em;
+	border-radius: 10px;
+	max-width: 150px;
+	min-width: 100px;
+}
